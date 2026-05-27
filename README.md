@@ -1,6 +1,6 @@
 # Distributed Order System with RabbitMQ
 
-A local, event-driven order processing system built with Node.js, Express, RabbitMQ, and PostgreSQL. Services communicate asynchronously through a message broker. No cloud services. No Docker. All services run natively on your machine.
+An event-driven order processing system built with Node.js, Express, RabbitMQ, and PostgreSQL. Services communicate asynchronously through a message broker using topic-based routing.
 
 ## Features
 
