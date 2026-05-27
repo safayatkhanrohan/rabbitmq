@@ -1,6 +1,6 @@
 # Distributed Order System with RabbitMQ
 
-An event-driven order processing system built with Node.js, Express, RabbitMQ, and PostgreSQL. Services communicate asynchronously through a message broker using topic-based routing.
+An event-driven order processing system built with Node.js, Express, RabbitMQ, and PostgreSQL. Five microservices communicate asynchronously through a message broker using topic-based routing.
 
 ## Features
 
