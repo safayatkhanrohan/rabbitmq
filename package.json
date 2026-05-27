@@ -1,0 +1,18 @@
+{
+  "name": "distributed-order-system",
+  "version": "1.0.0",
+  "description": "Local event-driven order system using Node.js, Express, RabbitMQ and PostgreSQL",
+  "private": true,
+  "scripts": {
+    "order": "node order-service/index.js",
+    "inventory": "node inventory-service/index.js",
+    "payment": "node payment-service/index.js",
+    "shipping": "node shipping-service/index.js",
+    "notification": "node notification-service/index.js"
+  },
+  "dependencies": {
+    "amqplib": "^0.10.4",
+    "express": "^4.19.2",
+    "pg": "^8.12.0"
+  }
+}
